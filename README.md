@@ -45,34 +45,29 @@ Abra o seu terminal e digite:
 ```bash
 git clone [https://github.com/SEU_USUARIO/Templates-LaTeX-para-Artigos-Cientificos.git](https://github.com/SEU_USUARIO/Templates-LaTeX-para-Artigos-Cientificos.git)
 cd Templates-LaTeX-para-Artigos-Cientificos
-(Lembre-se de substituir SEU_USUARIO pelo seu usuário real do GitHub)
+```
+*(Lembre-se de substituir `SEU_USUARIO` pelo seu usuário real do GitHub)*
 
-Passo 2: Abra o template no seu editor favorito
-Se for usar o Overleaf (Nuvem):
+### Passo 2: Abra o template no seu editor favorito
 
-Acesse o Overleaf e faça login.
+**Se for usar o Overleaf (Nuvem):**
+1. Acesse o [Overleaf](https://www.overleaf.com/) e faça login.
+2. Clique em **"New Project"** e depois em **"Upload Project"**.
+3. Selecione o arquivo `.zip` específico do template que você quer usar (ex: a pasta compactada do template ACS).
+4. O Overleaf vai compilar tudo automaticamente e você já pode começar a escrever!
 
-Clique em "New Project" e depois em "Upload Project".
+**Se for usar localmente (VS Code, TeXstudio, etc):**
+1. Certifique-se de ter uma distribuição TeX instalada no seu computador (como TeX Live ou MiKTeX).
+2. Abra a pasta do template desejado no seu editor.
+3. Edite o arquivo principal `.tex` e compile usando `pdflatex` ou a extensão do seu editor.
 
-Selecione o arquivo .zip específico do template que você quer usar (ex: a pasta compactada do template ACS).
+---
 
-O Overleaf vai compilar tudo automaticamente e você já pode começar a escrever!
+## ➕ Como adicionar novos templates
 
-Se for usar localmente (VS Code, TeXstudio, etc):
-
-Certifique-se de ter uma distribuição TeX instalada no seu computador (como TeX Live ou MiKTeX).
-
-Abra a pasta do template desejado no seu editor.
-
-Edite o arquivo principal .tex e compile usando pdflatex ou a extensão do seu editor.
-
-➕ Como adicionar novos templates
 Este repositório é colaborativo e expansível. Para adicionar um novo template (como o da Elsevier ou Springer), siga este padrão para manter a organização:
 
-Crie uma nova pasta na raiz do repositório com o nome da editora/revista (Ex: /Elsevier).
-
-Adicione todos os arquivos necessários (.tex, .cls, .sty, e a pasta de imagens) dentro dela.
-
-Inclua um arquivo exemplo.bib com algumas referências de teste.
-
-Atualize a seção "Templates Disponíveis" neste README.md incluindo o novo número na lista e uma breve descrição do que o template contém.
+1. Crie uma nova pasta na raiz do repositório com o nome da editora/revista (Ex: `/Elsevier`).
+2. Adicione todos os arquivos necessários (`.tex`, `.cls`, `.sty`, e a pasta de imagens) dentro dela.
+3. Inclua um arquivo `exemplo.bib` com algumas referências de teste.
+4. Atualize a seção **"Templates Disponíveis"** neste `README.md` incluindo o novo número na lista e uma breve descrição do que o template contém.
