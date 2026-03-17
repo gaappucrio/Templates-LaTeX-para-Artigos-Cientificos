@@ -19,7 +19,7 @@ Este repositório foi desenvolvido pensando em:
 
 Atualmente, o repositório conta com os seguintes modelos prontos para uso:
 
-1. **ACS (American Chemical Society):**
+1. [**ACS (American Chemical Society):**](./ACS)
 Template oficial adaptado para uso prático. Ele inclui:
 * Estrutura completa de artigo (Resumo, Introdução, Metodologia, Resultados, Conclusões).
 * Gerenciamento dinâmico de referências via BibTeX.
