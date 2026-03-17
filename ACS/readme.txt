@@ -1,0 +1,1 @@
+Para mais informações acessar: https://pubs.acs.org/page/4authors/submission/tex.html
